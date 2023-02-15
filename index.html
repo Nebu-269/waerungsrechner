@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="manifest" href="src/manifest.json">
+        <script src="src/script.js"></script>
+        <title>Währungsrechner</title>
+    </head>
+    <body>
+
+        <div class="header">
+            <img src="img/menu.svg" class="menu-img">
+            Währungsrechner
+        </div>
+
+
+        <div class="input-container container-center">
+            <img src="img/europe.png" class="flag">
+            <input value="1" type="text" id="euroField">
+            <span class="currency">EUR</span>
+        </div>
+
+        <div class="container-center">
+            <img src="img/arrows.png" class="arrow-img">
+        </div>
+
+        <div class="input-container container-center">
+            <img src="img/turkey.png" class="flag">
+            <input type="text" id="trl">
+            <span class="currency">TRY</span>
+        </div>
+
+        <div class="container-center">
+            <button onclick="calc()" class="calculate-btn">
+                Berechnen
+            </button>
+        </div>
+
+
+    </body>
+</html>
